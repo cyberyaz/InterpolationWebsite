@@ -1,13 +1,141 @@
-<html></html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interpolation Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interpolation</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <h1>INTERPOLATION</h1>
 
+  <!-- ─── HEADER ───────────────────────────────────────── -->
+  <header>
+    <h1><span>I</span>nterpolation</h1>
+    <p class="tagline">Jazz &nbsp;·&nbsp; Afrobeats &nbsp;·&nbsp; Salsa &nbsp;·&nbsp; Flamenco &nbsp;·&nbsp; R&B &nbsp;·&nbsp; Soul</p>
+  </header>
+
+  <div class="divider"></div>
+
+  <!-- ─── BIO ──────────────────────────────────────────── -->
+  <section class="bio">
+    <h2>About</h2>
+    <p>
+      Interpolation is a band that prides itself on its eclectic background of musical influences.
+      Being mainly rooted in jazz culture, we look to use the traditional formula of interpolating
+      popular songs of our contemporary times with musical arrangements that reflect our backgrounds —
+      Afrobeats, Salsa, Jazz, Flamenco, R&amp;B and Soul influences.
+    </p>
+    <p>
+      No matter what type of event you have, we can interpolate any songs to create the perfect
+      musical experience catered to your specific event.
+    </p>
+    <div class="influences">
+      <span>Jazz</span>
+      <span>Afrobeats</span>
+      <span>Salsa</span>
+      <span>Flamenco</span>
+      <span>R&amp;B</span>
+      <span>Soul</span>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── SLIDESHOW ────────────────────────────────────── -->
+  <!--
+    HOW TO ADD REAL PHOTOS:
+    Replace each <div class="slide-img-placeholder">...</div> with:
+    <img src="your-photo.jpg" class="slide-img" alt="description" />
+    Make sure your image files are in the same folder as index.html.
+  -->
+  <section class="slideshow-section">
+    <p class="section-label">The Band</p>
+    <div class="slideshow-wrapper">
+      <div class="slides" id="slides">
+
+        <!-- Slide 1 -->
+        <div class="slide">
+          <div class="slide-inner">
+            <div class="slide-img-placeholder">photo1.jpg</div>
+            <div class="slide-img-placeholder">photo2.jpg</div>
+            <div class="slide-img-placeholder">photo3.jpg</div>
+          </div>
+          <p class="slide-caption">Meet the band</p>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+          <div class="slide-inner">
+            <div class="slide-img-placeholder">photo4.jpg</div>
+            <div class="slide-img-placeholder">photo5.jpg</div>
+            <div class="slide-img-placeholder">photo6.jpg</div>
+          </div>
+          <p class="slide-caption">Live &amp; in the moment</p>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="slide">
+          <div class="slide-inner">
+            <div class="slide-img-placeholder">photo7.jpg</div>
+            <div class="slide-img-placeholder">photo8.jpg</div>
+            <div class="slide-img-placeholder">photo9.jpg</div>
+          </div>
+          <p class="slide-caption">From the stage</p>
+        </div>
+
+      </div>
+
+      <div class="slide-controls">
+        <button class="slide-btn" id="prev">&#8592;</button>
+        <div class="slide-dots" id="dots"></div>
+        <button class="slide-btn" id="next">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── VIDEO LINKS ───────────────────────────────────── -->
+  <!--
+    HOW TO SWAP VIDEOS:
+    Replace the YouTube embed URL in each iframe src with your own.
+    Format: https://www.youtube.com/embed/VIDEO_ID
+    (grab the VIDEO_ID from the end of any YouTube URL)
+  -->
+  <section class="video-section">
+    <p class="section-label" style="padding-top: 20px;">Watch Us Play</p>
+    <div class="video-grid">
+
+      <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        <p class="video-title">Live Performance</p>
+      </div>
+
+      <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/3JZ4pnNtyxQ" allowfullscreen></iframe>
+        <p class="video-title">Studio Session</p>
+      </div>
+
+      <div class="video-item">
+        <iframe src="https://www.youtube.com/embed/kXYiU_JCYtU" allowfullscreen></iframe>
+        <p class="video-title">Event Highlight</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ─── GET RATES ─────────────────────────────────────── -->
+  <section class="cta-section">
+    <a href="rates.html" class="cta-btn">Get Rates</a>
+    <p class="cta-sub">Book Interpolation for your event</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Interpolation &nbsp;·&nbsp; All Rights Reserved
+  </footer>
+
+  <script src="main.js"></script>
 </body>
 </html>
